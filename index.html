@@ -35,48 +35,50 @@
     <div class="hero-inner">
 
       <div>
-        <h1 class="hero-h1">
+        <h1 class="hero-h1 reveal">
           Til dem der<br>
-          <em>skaber<br>med andre.</em>
+          <span class="italic">skaber<br>med andre.</span>
         </h1>
-        <p class="hero-sub">
-          Pixibøger og redskaber til facilitatorer,<br>projektledere og ledere i små teams.
+        <p class="hero-meta reveal reveal-delay-1">
+          Pixibøger og redskaber til facilitatorer,<br>
+          projektledere og ledere i små teams.
         </p>
-        <a href="#produkter" class="hero-cta">
-          Se produkter <span class="hero-cta-arrow">↓</span>
-        </a>
+        <div class="hero-links reveal reveal-delay-2">
+          <a href="#produkter" class="hero-link-primary">
+            Se produkter
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#gratis" class="hero-link-secondary">
+            Hent gratis redskab ↓
+          </a>
+        </div>
       </div>
 
-      <div class="hero-cards">
+      <!-- Fanned card deck -->
+      <div class="hero-deck">
         <div class="hc">
-          <div class="hc-cover hc-cover-sm" style="background:var(--s-facilitering)">
+          <div class="hc-cover hc-cover-h" style="background:var(--s-f)">
             <div class="hc-deco">1</div>
             <div class="hc-series">Facilitering</div>
             <div class="hc-title">Kom i gang:<br>5 redskaber</div>
           </div>
-          <div class="hc-foot">
-            <div class="hc-price free">Gratis <small>↓</small></div>
-          </div>
+          <div class="hc-foot"><div class="hc-price free">Gratis <small>↓</small></div></div>
         </div>
         <div class="hc">
-          <div class="hc-cover hc-cover-md" style="background:var(--s-ledelse)">
+          <div class="hc-cover hc-cover-xl" style="background:var(--s-l)">
             <div class="hc-deco">2</div>
             <div class="hc-series">Ledelse</div>
             <div class="hc-title">Den svære<br>samtale</div>
           </div>
-          <div class="hc-foot">
-            <div class="hc-price">299 <small>kr</small></div>
-          </div>
+          <div class="hc-foot"><div class="hc-price">299 <small>kr</small></div></div>
         </div>
         <div class="hc">
-          <div class="hc-cover hc-cover-sm" style="background:var(--s-samarbejde)">
+          <div class="hc-cover hc-cover-h" style="background:var(--s-s)">
             <div class="hc-deco">3</div>
             <div class="hc-series">Samarbejde</div>
             <div class="hc-title">Møder der<br>rykker noget</div>
           </div>
-          <div class="hc-foot">
-            <div class="hc-price">249 <small>kr</small></div>
-          </div>
+          <div class="hc-foot"><div class="hc-price">249 <small>kr</small></div></div>
         </div>
       </div>
 
@@ -85,67 +87,122 @@
 </section>
 
 
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <!-- Repeated twice for seamless loop -->
+    <span class="marquee-item">Facilitering</span>
+    <span class="marquee-item accent">·</span>
+    <span class="marquee-item">Ledelse</span>
+    <span class="marquee-item accent">·</span>
+    <span class="marquee-item">Samarbejde</span>
+    <span class="marquee-item accent">·</span>
+    <span class="marquee-item">Projektledelse</span>
+    <span class="marquee-item accent">·</span>
+    <span class="marquee-item">Pixibøger</span>
+    <span class="marquee-item accent">·</span>
+    <span class="marquee-item">Workshops</span>
+    <span class="marquee-item accent">·</span>
+    <span class="marquee-item">Redskaber</span>
+    <span class="marquee-item accent">·</span>
+    <span class="marquee-item">Skaber med andre</span>
+    <span class="marquee-item accent">·</span>
+    <span class="marquee-item">Facilitering</span>
+    <span class="marquee-item accent">·</span>
+    <span class="marquee-item">Ledelse</span>
+    <span class="marquee-item accent">·</span>
+    <span class="marquee-item">Samarbejde</span>
+    <span class="marquee-item accent">·</span>
+    <span class="marquee-item">Projektledelse</span>
+    <span class="marquee-item accent">·</span>
+    <span class="marquee-item">Pixibøger</span>
+    <span class="marquee-item accent">·</span>
+    <span class="marquee-item">Workshops</span>
+    <span class="marquee-item accent">·</span>
+    <span class="marquee-item">Redskaber</span>
+    <span class="marquee-item accent">·</span>
+    <span class="marquee-item">Skaber med andre</span>
+    <span class="marquee-item accent">·</span>
+  </div>
+</div>
+
+
 <!-- PRODUKTER -->
 <section class="section-products" id="produkter">
   <div class="wrap">
-
-    <div class="section-heading">
-      <h2 class="section-h2">Produkter — <em>viden til praksis</em></h2>
-      <span class="section-count">5 titler · 1 tilgængelig</span>
+    <div class="products-header reveal">
+      <h2 class="products-h2">Produkter — <em>viden til praksis</em></h2>
+      <span class="products-hint">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1v12M1 7h12" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" opacity=".5"/></svg>
+        Træk for at udforske
+      </span>
     </div>
+  </div>
 
-    <!-- Featured: gratis -->
-    <a href="#gratis" class="product-featured">
-      <div class="pf-cover" style="background:var(--s-facilitering)">
-        <div class="pf-deco">1</div>
-        <div class="pf-series">Facilitering · Nr. 1</div>
-        <div class="pf-title">Kom i gang:<br><em>5 redskaber</em></div>
+  <!-- Drag-scroll shelf -->
+  <div class="shelf-outer">
+    <div class="shelf" id="shelf">
+
+      <div class="shelf-card">
+        <a href="#gratis">
+          <div class="sc-cover" style="background:var(--s-f)">
+            <div class="sc-deco">1</div>
+            <div class="sc-series">Facilitering · Nr. 1</div>
+            <div class="sc-title">Kom i gang:<br><em>5 redskaber</em></div>
+          </div>
+          <div class="sc-foot">
+            <div class="sc-price free">Gratis</div>
+            <div class="sc-badge free-badge">Tilgængelig nu</div>
+          </div>
+        </a>
       </div>
-      <div class="pf-info">
-        <div>
-          <div class="pf-label">Tilgængelig nu</div>
-          <p class="pf-desc">Fem konkrete faciliteringsredskaber til din næste workshop eller møde. Klar til print og Miro. Ingen tilmelding krævet.</p>
+
+      <div class="shelf-card disabled">
+        <div class="sc-cover" style="background:var(--s-l)">
+          <div class="sc-deco">1</div>
+          <div class="sc-series">Ledelse · Nr. 1</div>
+          <div class="sc-title">Den svære<br><em>samtale</em></div>
         </div>
-        <div class="pf-footer">
-          <div class="pf-price">Gratis</div>
-          <div class="btn-small">Hent nu →</div>
+        <div class="sc-foot">
+          <div class="sc-price">299 kr</div>
+          <div class="sc-badge soon-badge">Snart</div>
         </div>
       </div>
-    </a>
 
-    <!-- Coming soon: liste -->
-    <div class="product-list">
-
-      <div class="product-list-item">
-        <div class="pli-num">02</div>
-        <div class="pli-title">Den svære <em>samtale</em></div>
-        <div class="pli-series">Ledelse</div>
-        <div class="pli-price">299 kr</div>
-        <div class="pli-status">Snart</div>
+      <div class="shelf-card disabled">
+        <div class="sc-cover" style="background:var(--s-s)">
+          <div class="sc-deco">1</div>
+          <div class="sc-series">Samarbejde · Nr. 1</div>
+          <div class="sc-title">Møder der<br><em>rykker noget</em></div>
+        </div>
+        <div class="sc-foot">
+          <div class="sc-price">249 kr</div>
+          <div class="sc-badge soon-badge">Snart</div>
+        </div>
       </div>
 
-      <div class="product-list-item">
-        <div class="pli-num">03</div>
-        <div class="pli-title">Møder der <em>rykker noget</em></div>
-        <div class="pli-series">Samarbejde</div>
-        <div class="pli-price">249 kr</div>
-        <div class="pli-status">Snart</div>
+      <div class="shelf-card disabled">
+        <div class="sc-cover" style="background:var(--s-p)">
+          <div class="sc-deco">1</div>
+          <div class="sc-series">Projektledelse · Nr. 1</div>
+          <div class="sc-title">Fra idé til<br><em>afslutning</em></div>
+        </div>
+        <div class="sc-foot">
+          <div class="sc-price">499 kr</div>
+          <div class="sc-badge soon-badge">Snart</div>
+        </div>
       </div>
 
-      <div class="product-list-item">
-        <div class="pli-num">04</div>
-        <div class="pli-title">Fra idé til <em>afslutning</em></div>
-        <div class="pli-series">Projektledelse</div>
-        <div class="pli-price">499 kr</div>
-        <div class="pli-status">Snart</div>
-      </div>
-
-      <div class="product-list-item">
-        <div class="pli-num">05</div>
-        <div class="pli-title">Psykologisk <em>tryghed</em></div>
-        <div class="pli-series">Samarbejde</div>
-        <div class="pli-price">299 kr</div>
-        <div class="pli-status">Snart</div>
+      <div class="shelf-card disabled">
+        <div class="sc-cover" style="background:var(--s-g)">
+          <div class="sc-deco">2</div>
+          <div class="sc-series">Samarbejde · Nr. 2</div>
+          <div class="sc-title">Psykologisk<br><em>tryghed</em></div>
+        </div>
+        <div class="sc-foot">
+          <div class="sc-price">299 kr</div>
+          <div class="sc-badge soon-badge">Snart</div>
+        </div>
       </div>
 
     </div>
@@ -156,13 +213,15 @@
 <!-- STATEMENT -->
 <section class="section-statement">
   <div class="wrap">
-    <div class="statement">
+    <div class="statement-bg" aria-hidden="true">sam</div>
+    <div class="statement-body reveal">
       <p class="statement-q">
         "Det bedste opstår når<br>
         <strong>mennesker skaber det sammen</strong> —<br>
-        men det kræver at nogen<br>tager ansvar for processen."
+        men det kræver at nogen<br>
+        tager ansvar for processen."
       </p>
-      <div class="statement-source">samskab</div>
+      <div class="statement-attr">samskab</div>
     </div>
   </div>
 </section>
@@ -172,12 +231,15 @@
 <section class="section-gratis" id="gratis">
   <div class="wrap">
     <div class="gratis-inner">
-      <div>
-        <div class="gratis-kicker">Gratis download</div>
+      <div class="reveal">
+        <div class="gratis-kicker">Gratis download · Ingen tilmelding</div>
         <h2 class="gratis-h">Kom i gang:<br><em>5 faciliterings­redskaber</em></h2>
-        <p class="gratis-sub">Klar til print og Miro. Ingen tilmelding.</p>
+        <p class="gratis-sub">Klar til print og Miro.<br>Brug dem til dit næste møde.</p>
       </div>
-      <a href="[LEMON_SQUEEZY_URL]" class="btn-white">Hent gratis pixibog →</a>
+      <a href="[LEMON_SQUEEZY_URL]" class="btn-white reveal reveal-delay-1">
+        Hent gratis
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M8 3l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
     </div>
   </div>
 </section>
@@ -199,6 +261,42 @@
     </div>
   </div>
 </footer>
+
+
+<script>
+// ── Scroll reveal
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+  });
+}, { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// ── Drag-scroll shelf
+const shelf = document.getElementById('shelf');
+let isDown = false, startX, scrollLeft;
+shelf.addEventListener('mousedown', e => {
+  isDown = true;
+  startX = e.pageX - shelf.offsetLeft;
+  scrollLeft = shelf.scrollLeft;
+});
+document.addEventListener('mouseup', () => { isDown = false; });
+shelf.addEventListener('mousemove', e => {
+  if (!isDown) return;
+  e.preventDefault();
+  const x = e.pageX - shelf.offsetLeft;
+  shelf.scrollLeft = scrollLeft - (x - startX) * 1.4;
+});
+// Touch support
+shelf.addEventListener('touchstart', e => {
+  startX = e.touches[0].pageX - shelf.offsetLeft;
+  scrollLeft = shelf.scrollLeft;
+}, { passive: true });
+shelf.addEventListener('touchmove', e => {
+  const x = e.touches[0].pageX - shelf.offsetLeft;
+  shelf.scrollLeft = scrollLeft - (x - startX);
+}, { passive: true });
+</script>
 
 </body>
 </html>
