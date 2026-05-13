@@ -1,0 +1,45 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/produkter"
+  to = "/produkter.html"
+  status = 200
+
+[[redirects]]
+  from = "/gratis"
+  to = "/gratis.html"
+  status = 200
+
+[[redirects]]
+  from = "/om"
+  to = "/om.html"
+  status = 200
+
+[[redirects]]
+  from = "/ledelse"
+  to = "/produkter.html"
+  status = 302
+
+[[redirects]]
+  from = "/samarbejde"
+  to = "/produkter.html"
+  status = 302
+
+[[redirects]]
+  from = "/facilitering"
+  to = "/gratis.html"
+  status = 302
+
+[[redirects]]
+  from = "/projektledelse"
+  to = "/produkter.html"
+  status = 302
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
