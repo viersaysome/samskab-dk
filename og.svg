@@ -1,0 +1,50 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#F7F5F1"/>
+
+  <!-- Subtle grid line -->
+  <line x1="80" y1="240" x2="560" y2="240" stroke="#E5E2DD" stroke-width="1"/>
+
+  <!-- Left: brand + tagline -->
+  <text x="80" y="210" font-family="Georgia,'Times New Roman',serif" font-size="76" fill="#111009" font-weight="700" letter-spacing="-3">samskab.</text>
+  <text x="84" y="285" font-family="-apple-system,system-ui,'Helvetica Neue',sans-serif" font-size="24" fill="#6B6760" font-weight="300">Til dem der skaber med andre.</text>
+  <text x="84" y="340" font-family="-apple-system,system-ui,'Helvetica Neue',sans-serif" font-size="17" fill="#A8A49F" font-weight="300">Pixibøger og redskaber til facilitatorer,</text>
+  <text x="84" y="368" font-family="-apple-system,system-ui,'Helvetica Neue',sans-serif" font-size="17" fill="#A8A49F" font-weight="300">projektledere og ledere i små teams.</text>
+  <text x="84" y="570" font-family="-apple-system,system-ui,'Helvetica Neue',sans-serif" font-size="15" fill="#A8A49F">samskab.dk</text>
+
+  <!-- Book 1 — back left (Facilitering, teal) -->
+  <g transform="translate(660,55) rotate(-8,94,220)">
+    <rect width="188" height="264" rx="10" fill="#3D7A6B"/>
+    <rect width="13" height="264" rx="0" fill="#1f4036"/>
+    <text x="28" y="26" font-family="Georgia,serif" font-size="7" fill="rgba(255,255,255,.4)" letter-spacing="2.5">FACILITERING</text>
+    <text x="28" y="210" font-family="Georgia,serif" font-size="17" fill="white" font-weight="400">Kom i gang:</text>
+    <text x="28" y="233" font-family="Georgia,serif" font-size="17" fill="rgba(255,255,255,.85)" font-style="italic">5 redskaber</text>
+    <text x="28" y="252" font-family="Georgia,serif" font-size="8" fill="rgba(255,255,255,.28)" letter-spacing="1.5">samskab.</text>
+    <!-- Page edges -->
+    <rect x="190" y="5" width="9" height="254" rx="2" fill="rgba(220,210,195,.45)"/>
+  </g>
+
+  <!-- Book 2 — front center (Ledelse, navy) -->
+  <g transform="translate(800,25) rotate(1,94,270)">
+    <rect width="188" height="314" rx="10" fill="#2A4A6B"/>
+    <rect width="13" height="314" rx="0" fill="#152538"/>
+    <text x="28" y="26" font-family="Georgia,serif" font-size="7" fill="rgba(255,255,255,.4)" letter-spacing="2.5">LEDELSE</text>
+    <text x="28" y="258" font-family="Georgia,serif" font-size="17" fill="white" font-weight="400">Den svære</text>
+    <text x="28" y="281" font-family="Georgia,serif" font-size="17" fill="rgba(255,255,255,.85)" font-style="italic">samtale</text>
+    <text x="28" y="302" font-family="Georgia,serif" font-size="8" fill="rgba(255,255,255,.28)" letter-spacing="1.5">samskab.</text>
+    <!-- Page edges -->
+    <rect x="190" y="5" width="9" height="304" rx="2" fill="rgba(220,210,195,.45)"/>
+  </g>
+
+  <!-- Book 3 — back right (Samarbejde, brown) -->
+  <g transform="translate(950,58) rotate(8,94,220)">
+    <rect width="188" height="264" rx="10" fill="#7A4A35"/>
+    <rect width="13" height="264" rx="0" fill="#3d2519"/>
+    <text x="28" y="26" font-family="Georgia,serif" font-size="7" fill="rgba(255,255,255,.4)" letter-spacing="2.5">SAMARBEJDE</text>
+    <text x="28" y="210" font-family="Georgia,serif" font-size="17" fill="white" font-weight="400">Møder der</text>
+    <text x="28" y="233" font-family="Georgia,serif" font-size="17" fill="rgba(255,255,255,.85)" font-style="italic">rykker noget</text>
+    <text x="28" y="252" font-family="Georgia,serif" font-size="8" fill="rgba(255,255,255,.28)" letter-spacing="1.5">samskab.</text>
+    <!-- Page edges -->
+    <rect x="190" y="5" width="9" height="254" rx="2" fill="rgba(220,210,195,.45)"/>
+  </g>
+</svg>
