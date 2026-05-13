@@ -341,7 +341,7 @@ a { text-decoration: none; color: inherit; }
 }
 .sc-badge.free-badge { background: var(--pl); color: var(--primary); }
 .sc-badge.soon-badge { background: var(--bg); color: var(--subtle); }
-.shelf-card.disabled { opacity: .5; }
+.shelf-card.disabled { opacity: .5; cursor: default; pointer-events: none; }
 
 /* Scroll fade edges */
 .shelf-outer::before, .shelf-outer::after {
@@ -486,9 +486,10 @@ a { text-decoration: none; color: inherit; }
 }
 .gratis-h {
   font-family: var(--serif);
-  font-size: clamp(30px, 3.2vw, 46px);
+  font-size: clamp(24px, 3.2vw, 46px);
   color: var(--text); font-weight: 400; line-height: 1.1;
   letter-spacing: -.03em; margin-bottom: 20px;
+  hyphens: auto; overflow-wrap: break-word;
 }
 .gratis-h em { font-style: italic; font-weight: 300; color: var(--primary); }
 .gratis-line {
@@ -611,10 +612,9 @@ a { text-decoration: none; color: inherit; }
   .hero { padding: 72px 0 64px; }
   .shelf-outer { margin: 0 -24px; padding: 0 24px 40px; }
   .products-header { flex-direction: column; align-items: flex-start; gap: 8px; }
-  .gratis-strip { grid-template-columns: 1fr 1fr; gap: 32px; }
-  .gratis-book-wrap { grid-column: 1 / -1; }
-  .gratis-cover { max-width: 180px; }
-  .gratis-cta-col { grid-column: 2; }
+  .gratis-strip { grid-template-columns: 1fr; gap: 28px; }
+  .gratis-cover { max-width: 160px; }
+  .gratis-cta-col { align-items: flex-start; }
   .footer-top { grid-template-columns: 1fr 1fr; }
   .footer-brand { grid-column: 1 / -1; }
   /* Mobile hero: show one book card instead of hiding */
