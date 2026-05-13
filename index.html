@@ -213,15 +213,18 @@
 <!-- STATEMENT -->
 <section class="section-statement">
   <div class="wrap">
-    <div class="statement-bg" aria-hidden="true">sam</div>
+    <div class="statement-ghost" aria-hidden="true">skaber</div>
     <div class="statement-body reveal">
-      <p class="statement-q">
-        "Det bedste opstår når<br>
-        <strong>mennesker skaber det sammen</strong> —<br>
-        men det kræver at nogen<br>
-        tager ansvar for processen."
-      </p>
-      <div class="statement-attr">samskab</div>
+      <div class="statement-num" aria-hidden="true">—</div>
+      <div class="statement-content">
+        <p class="statement-q">
+          "Det bedste opstår når<br>
+          <strong>mennesker skaber det sammen</strong> —<br>
+          men det kræver at nogen<br>
+          tager ansvar for processen."
+        </p>
+        <div class="statement-attr">samskab</div>
+      </div>
     </div>
   </div>
 </section>
@@ -230,16 +233,37 @@
 <!-- GRATIS -->
 <section class="section-gratis" id="gratis">
   <div class="wrap">
-    <div class="gratis-inner">
-      <div class="reveal">
-        <div class="gratis-kicker">Gratis download · Ingen tilmelding</div>
-        <h2 class="gratis-h">Kom i gang:<br><em>5 faciliterings­redskaber</em></h2>
-        <p class="gratis-sub">Klar til print og Miro.<br>Brug dem til dit næste møde.</p>
+    <div class="gratis-grid">
+
+      <!-- Left: cover card -->
+      <div class="gratis-cover reveal">
+        <div class="gratis-cover-deco" aria-hidden="true">1</div>
+        <div class="gratis-cover-series">Facilitering · Nr. 1</div>
+        <div class="gratis-cover-title">Kom i gang:<br><em>5 redskaber</em></div>
+        <div class="gratis-cover-foot">
+          <span class="gratis-cover-tag">Gratis download</span>
+        </div>
       </div>
-      <a href="[LEMON_SQUEEZY_URL]" class="btn-white reveal reveal-delay-1">
-        Hent gratis
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M8 3l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
+
+      <!-- Right: info -->
+      <div class="gratis-info reveal reveal-delay-1">
+        <div class="gratis-kicker">Gratis · Ingen tilmelding</div>
+        <h2 class="gratis-h">Kom i gang:<br><em>5 faciliterings­redskaber</em></h2>
+        <p class="gratis-sub">Klar til print og Miro. Brug dem til dit næste møde — uden at skulle læse en hel bog først.</p>
+        <ul class="gratis-bullets">
+          <li>Check-in til mødet der sætter tonen</li>
+          <li>Beslutningsmatrix — hvem bestemmer hvad</li>
+          <li>Retrospektiv der faktisk rykker noget</li>
+          <li>Energimåler til lange workshops</li>
+          <li>Afslutningsritual der samler tråde</li>
+        </ul>
+        <a href="[LEMON_SQUEEZY_URL]" class="gratis-cta">
+          Hent gratis nu
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <span class="gratis-note">PDF · 8 sider · Ingen tilmelding krævet</span>
+      </div>
+
     </div>
   </div>
 </section>
@@ -248,16 +272,28 @@
 <!-- FOOTER -->
 <footer class="footer">
   <div class="wrap">
-    <div class="footer-inner">
-      <div class="footer-left">
+    <div class="footer-top">
+      <div class="footer-brand">
         <span class="footer-logo">samskab<span>.</span></span>
-        <span class="footer-sep">—</span>
-        <span class="footer-saysome">en del af <a href="https://saysome.dk" target="_blank" rel="noopener">Saysome</a></span>
+        <p class="footer-tagline">Til dem der skaber med andre.</p>
       </div>
-      <div class="footer-right">
-        <a href="mailto:hej@samskab.dk" class="footer-link">hej@samskab.dk</a>
-        <span class="footer-copy">© Saysome I/S · CVR 44153734</span>
+      <div>
+        <div class="footer-col-head">Produkter</div>
+        <div class="footer-col-links">
+          <a href="#produkter" class="footer-link">Se alle produkter</a>
+          <a href="#gratis" class="footer-link">Gratis redskab</a>
+        </div>
       </div>
+      <div>
+        <div class="footer-col-head">Kontakt</div>
+        <div class="footer-col-links">
+          <a href="mailto:hej@samskab.dk" class="footer-link">hej@samskab.dk</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© Saysome I/S · CVR 44153734</span>
+      <span class="footer-saysome">en del af <a href="https://saysome.dk" target="_blank" rel="noopener">Saysome</a></span>
     </div>
   </div>
 </footer>
