@@ -400,9 +400,13 @@ a { text-decoration: none; color: inherit; }
 }
 .gratis-strip {
   display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 64px;
+  grid-template-columns: 180px 1fr auto;
+  gap: 56px;
   align-items: center;
+}
+.gratis-cta-col {
+  display: flex; flex-direction: column; align-items: flex-start; gap: 12px;
+  flex-shrink: 0;
 }
 
 /* Left: product cover card */
@@ -545,28 +549,6 @@ a { text-decoration: none; color: inherit; }
 .testimonial-sep { color: var(--border); }
 .testimonial-title { font-weight: 300; }
 
-/* ── OM ── */
-.section-om {
-  background: var(--white);
-  border-top: 1px solid var(--border);
-  padding: 72px 0;
-}
-.om-inner {
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 48px;
-  align-items: start;
-  max-width: 800px;
-}
-.om-label {
-  font-size: 10px; letter-spacing: .16em; text-transform: uppercase;
-  color: var(--subtle); font-weight: 600; padding-top: 4px;
-}
-.om-text {
-  font-size: 15px; color: var(--muted);
-  font-weight: 300; line-height: 1.8;
-}
-
 /* ── FOOTER ── */
 .footer {
   background: var(--dark);
@@ -589,7 +571,11 @@ a { text-decoration: none; color: inherit; }
 .footer-logo span { color: var(--primary); }
 .footer-tagline {
   font-size: 13px; color: rgba(255,255,255,.2);
-  font-weight: 300; line-height: 1.5;
+  font-weight: 300; line-height: 1.5; margin-bottom: 12px;
+}
+.footer-om {
+  font-size: 12px; color: rgba(255,255,255,.18);
+  font-weight: 300; line-height: 1.65; max-width: 260px;
 }
 .footer-col-head {
   font-size: 9px; letter-spacing: .16em; text-transform: uppercase;
@@ -625,12 +611,12 @@ a { text-decoration: none; color: inherit; }
   .hero { padding: 72px 0 64px; }
   .shelf-outer { margin: 0 -24px; padding: 0 24px 40px; }
   .products-header { flex-direction: column; align-items: flex-start; gap: 8px; }
-  .gratis-strip { grid-template-columns: 1fr; gap: 40px; }
-  .gratis-cover { max-width: 200px; transform: rotate(-3deg); }
+  .gratis-strip { grid-template-columns: 1fr 1fr; gap: 32px; }
+  .gratis-book-wrap { grid-column: 1 / -1; }
+  .gratis-cover { max-width: 180px; }
+  .gratis-cta-col { grid-column: 2; }
   .footer-top { grid-template-columns: 1fr 1fr; }
   .footer-brand { grid-column: 1 / -1; }
-  .om-inner { grid-template-columns: 1fr; gap: 16px; }
-
   /* Mobile hero: show one book card instead of hiding */
   .hero-deck {
     display: block;
